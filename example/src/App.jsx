@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { Container, Col, Row } from '@strn_dev/flexbox-grid-module';
 // import { Container, Row, Col } from '../../src/';
-import '@patrick_s/flexbox-grid-module/dist/index.css';
+import '@strn_dev/flexbox-grid-module/dist/index.css';
 
 
 function App() {

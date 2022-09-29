@@ -1,38 +1,46 @@
 {
-  "name": "@strn_dev/flexbox-grid-module",
-  "type": "module",
-  "version": "0.2.0",
-  "description": "react flexbox grid",
-  "main": "dist/index.js",
-  "scripts": {
-    "build": "microbundle-crl --no-compress --format modern,cjs",
-    "dev": "microbundle-crl watch --no-compress --format modern,cjs"
-  },
-  "module": "dist/index.modern.js",
-  "source": "src/index.js",
-  "engines": {
-    "node": ">=10"
-  },
-  "author": "Patrick Stern",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/patrick-stern/flexbox-grid-module.git"
-  },
-  "devDependencies": {
-    "classnames": "^2.3.2",
-    "microbundle-crl": "^0.13.11",
-    "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "files": [
-    "dist"
-  ],
-  "peerDependencies": {
-    "classnames": "^2.3.2",
-    "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
+    "name": "@strn_dev/flexbox-grid-module",
+    "version": "0.2.1",
+    "description": "react flexbox grid",
+    "keywords": [
+        "react",
+        "flexbox",
+        "grid",
+        "css-modules"
+    ],
+    "scripts": {
+        "build": "microbundle-crl --no-compress --format modern,cjs",
+        "dev": "microbundle-crl watch --no-compress --format modern,cjs"
+    },
+    "main": "dist/index.js",
+    "module": "dist/index.modern.js",
+    "source": "src/index.js",
+    "engines": {
+        "node": ">=10"
+    },
+    "author": "Patrick Stern",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/patrick-stern/flexbox-grid-module.git"
+    },
+    "bugs": {
+        "url": "https://github.com/patrick-stern/flexbox-grid-module/issues"
+    },
+    "devDependencies": {
+        "classnames": "^2.3.2",
+        "microbundle-crl": "^0.13.11",
+        "prop-types": "^15.8.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "files": [
+        "dist"
+    ],
+    "peerDependencies": {
+        "classnames": "^2.3.2",
+        "prop-types": "^15.8.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
 }
