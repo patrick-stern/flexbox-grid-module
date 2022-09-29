@@ -290,11 +290,8 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@patrick_s/flexbox-grid-module@../":
-  version "1.0.0"
-
 "@strn_dev/flexbox-grid-module@../":
-  version "1.0.0"
+  version "0.2.2"
 
 "@types/prop-types@*":
   version "15.7.5"

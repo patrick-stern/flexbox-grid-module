@@ -9,9 +9,6 @@
 .row {
     display: flex;
     flex-flow: row wrap;
-    margin: 0 rem(-20);
-    padding-right: 20px;
-    padding-left: 20px;
 }
 
 .flex-start {
@@ -50,22 +47,8 @@
     align-items: flex-end;
 }
 
-.gap-sm>* {
-    padding: rem(10);
-}
-
-.gap-md>* {
-    padding: rem(20);
-}
-
-.gap-lg>* {
-    padding: rem(30);
-}
-
 .column {
     flex: 1 1 0px;
-    padding-right: rem(20);
-    padding-left: rem(20);
 }
 
 .sm-1 {
