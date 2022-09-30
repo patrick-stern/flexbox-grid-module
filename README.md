@@ -41,8 +41,8 @@ import '@strn_dev/flexbox-grid-module/dist/index.css';
 
 | Name         | Type    | Default | Description |
 | ------------ | ------- | ------- | ----------- |
-| alignItems | string | - | `flex-start`, `center`, `flex-end` |
-| justifyContent | string | - | `flex-start`, `center`, `flex-end`, `space-between`, `space-around`, `space-evenly` |
+| alignItems | string | - | options: `flex-start`, `center`, `flex-end` |
+| justifyContent | string | - | options: `flex-start`, `center`, `flex-end`, `space-between`, `space-around`, `space-evenly` |
 | className | string | - | additonal CSS class |
 
 ### Col
