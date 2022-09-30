@@ -1,6 +1,6 @@
 {
     "name": "@strn_dev/flexbox-grid-module",
-    "version": "0.2.4",
+    "version": "0.2.3",
     "description": "react flexbox grid",
     "keywords": [
         "react",
@@ -9,11 +9,12 @@
         "css-modules"
     ],
     "scripts": {
-        "build": "microbundle --no-compress --jsx React.createElement --css-modules css_[hash:base64:5] --format modern,cjs",
-        "dev": "microbundle watch --no-compress --jsx React.createElement --css-modules css_[hash:base64:5]  --format modern,cjs"
+        "build": "microbundle --no-compress --jsx React.createElement --css-modules css_[hash:base64:5] --format cjs,esm,umd",
+        "dev": "microbundle watch --no-compress --jsx React.createElement --css-modules css_[hash:base64:5] --format cjs,esm,umd"
     },
     "main": "dist/index.js",
     "module": "dist/index.modern.mjs",
+    "unpkg": "./dist/index.umd.js",
     "source": "src/index.ts",
     "types": "dist/index.d.ts",
     "engines": {
